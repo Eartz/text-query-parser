@@ -1,0 +1,21 @@
+{
+  "name": "text-query-parser",
+  "version": "0.1.0",
+  "description": "Transforms an input string into an object containing substrings and flags",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp mocha"
+  },
+  "keywords": [
+    "js",
+    "text",
+    "parser"
+  ],
+  "author": "camille dot hodoul at gmail dot com",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-mocha": "^2.2.0",
+    "mocha": "^2.3.4"
+  }
+}
