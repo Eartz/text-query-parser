@@ -2,6 +2,9 @@
 
 Given a string such as `"javascript articles +va -Fg"`, returns an object with substrings and flags.  
 
+```
+npm install --save text-query-parser
+```
 
 ```js
 var parser = require('text-query-parser');
@@ -26,8 +29,9 @@ parser('"This is a single substring" multiple substrings');
     }
 }
 ```
+Escaped double quotes will be ignored.
 
-You can use funny unicodes characters in both substrings and flags:
+You can use funny unicode characters in both substrings and flags:
 ```js
 parser("Let it ❆ -☃");
 {
